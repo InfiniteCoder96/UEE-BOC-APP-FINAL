@@ -71,22 +71,23 @@ const styles = StyleSheet.create({
     height: 500,
     borderWidth: 0,
     borderColor: "#000000",
-    backgroundColor: "rgba(255,255,255,1)"
+    backgroundColor: "#000000"
   },
   tabView1_tabBarStyle: {
-    backgroundColor: "#3F51B5"
+    backgroundColor: "rgba(250,164,51,1)"
   },
   tabContent1: {
+    
     flex: 1
   },
   rect1: {
-    flex: 1,
-    backgroundColor: "#eeeeee"
+    backgroundColor: "#000000",
+    flex: 1
   },
   text: {
     top: 25,
     left: 28,
-    color: "#121212",
+    color: "#ffffff",
     position: "absolute"
   },
   tabContent2: {

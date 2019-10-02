@@ -14,12 +14,14 @@ export default class MyAccountScreen extends Component {
           style={styles.image}
         />
         <View style={styles.rect3} />
-        <Text style={styles.text2}>ADD EXPENSE</Text>
+        <Text style={styles.text2}>MY ACCOUNT</Text>
         
         <MaterialBasicTab style={styles.materialBasicTab} />
         
         <Text style={styles.text3}>Current Balance</Text>
         <Text style={styles.text4}>Rs. 12, 000</Text>
+        <Text style={styles.text5}>Available Balance</Text>
+        <Text style={styles.text6}>Rs. 11, 500</Text>
       </View>
     );
   }
@@ -93,7 +95,7 @@ const styles = StyleSheet.create({
   },
   text2: {
     top: 96.54,
-    left: 140.29,
+    left: 130,
     color: "#121212",
     position: "absolute",
     fontSize: 20,
@@ -101,15 +103,30 @@ const styles = StyleSheet.create({
   },
   text3: {
     fontSize: 30,
-    top: 337.2,
-    left: 151.82,
+    top: 200,
+    left: 80,
     color: "#121212",
     position: "absolute"
   },
   text4: {
     fontSize: 20,
-    top: 363.2,
-    left: 151.82,
+    top: 240,
+    left: 140,
+    color: "#121212",
+    position: "absolute"
+  }
+  ,
+  text5: {
+    fontSize: 30,
+    top: 280,
+    left: 80,
+    color: "#121212",
+    position: "absolute"
+  },
+  text6: {
+    fontSize: 20,
+    top: 320,
+    left: 140,
     color: "#121212",
     position: "absolute"
   }
